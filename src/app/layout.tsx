@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`w-full h-screen flex flex-col items-center py-5 antialiased font-googlesans bg-background`}
+        className={``}
       >
         {children}
       </body>

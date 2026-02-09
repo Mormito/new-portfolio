@@ -4,15 +4,15 @@ import { RiGitRepositoryFill } from "react-icons/ri";
 
 export default function Header(){
     return (
-        <div className="w-full flex flex-row justify-between items-center px-5 py-3 border rounded-2xl">
+        <div className="w-full flex flex-row justify-between items-center px-5 py-3 rounded-2xl bg-background2 dark:bg-darkbackground2">
 
             <Image src={'/images/logo.png'} alt="Logo" width={192} height={192} className="w-7"/>
 
             <div className="flex flex-row gap-10">
-                <a className="headerText" href="#" rel="noopener noreferrer">Inicio</a>
-                <a className="headerText" href="#" rel="noopener noreferrer">Stacks</a>
-                <a className="headerText" href="#" rel="noopener noreferrer">Projetos</a>
-                <a className="headerText" href="#" rel="noopener noreferrer">Contato</a>
+                <a className="headerText" href="#" rel="noopener noreferrer">Home</a>
+                <a className="headerText" href="#projects" rel="noopener noreferrer">Projects</a>
+                <a className="headerText" href="#" rel="noopener noreferrer">Tech Stacks</a>
+                <a className="headerText" href="#" rel="noopener noreferrer">Contact</a>
             </div>
 
             <div className="flex flex-row gap-10">

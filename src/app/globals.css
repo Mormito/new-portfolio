@@ -1,17 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
 @import "tailwindcss";
+@import "tw-animate-css";
+
 
 @theme{
   --color-background: oklch(0.982 0.0041 91.45);  
-  
-  --color-focus: oklch(0.8292 0.123 87.42);
+  --color-background2: oklch(0.95 0.0041 91.45);
 
+  --color-darkbackground: oklch(0.2412 0 0);
+  --color-darkbackground2: oklch(0.2804 0 0);
+
+  --color-text: oklch(0 0 0);
+  --color-darktext: oklch(0.982 0.0041 91.45);
+
+  --color-focus: oklch(0.8292 0.123 87.42);
 
   --font-googlesans: "Google Sans", sans-serif;
 }
 
-.body{
-  @apply font-googlesans;
+body{
+  @apply w-full h-screen 
+  flex flex-col items-center 
+  antialiased py-5 font-googlesans 
+  bg-background dark:bg-darkbackground
+  text-text dark:text-darktext;
 }
 
 .headerInfo{
@@ -20,4 +32,32 @@
 
 .headerText{
   @apply text-sm duration-150 ease-in-out hover:text-focus;
+}
+
+.card {
+  @apply flex flex-col rounded-lg p-4
+         bg-focus text-darktext
+         dark:text-darkbackground
+         shadow-md shadow-background2
+         dark:shadow-darkbackground2
+         transition-all duration-150 ease-in-out
+         hover:-translate-y-1 hover:shadow-lg;
+}
+
+
+.cardStacks{
+  @apply flex flex-row gap-1;
+}
+
+.btn {
+  @apply font-semibold inline-flex w-fit px-3 py-2 mt-3 rounded-lg flex-row items-center gap-2 duration-100 ease-in-out;
+}
+
+.primary-btn{
+  @apply bg-background text-focus hover:bg-background2 dark:bg-darkbackground dark:text-darktext dark:hover:bg-darkbackground2;
+}
+
+.secondary-btn{
+  @apply border-2 border-background text-background hover:bg-background hover:text-focus
+                  dark:border-darkbackground dark:text-darkbackground dark:hover:bg-darkbackground
 }
