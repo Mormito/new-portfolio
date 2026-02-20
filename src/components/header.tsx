@@ -6,7 +6,7 @@ export default function Header(){
     return (
         <nav className="hidden lg:flex lg:w-2/12 fixed top-4 left-1/2 -translate-x-1/2 flex flex-row justify-between items-center px-5 py-3 rounded-2xl bg-background2 dark:bg-darkbackground2">
 
-            <Image src={'/images/logo.png'} alt="Logo" width={192} height={192} className="w-7"/>
+            <Image src={'./images/logo.png'} alt="Logo" width={192} height={192} className="w-7"/>
 
 {/*            <div className="flex flex-row gap-10">
                 <a className="headerText" href="#" rel="noopener noreferrer">Home</a>

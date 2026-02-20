@@ -7,7 +7,7 @@ export default function PersonalStuff(){
         md:text-start md:flex-row md:justify-around 
         items-center mt-20 lg:mt-30">
 
-            <Image src={'/images/magistrada.png'} alt="Magistrada" width={428} height={428} className="w-100 rounded-4xl border border-focus cursor-pointer hover:shadow-focus hover:shadow-md "/>
+            <Image src={'./images/magistrada.png'} alt="Magistrada" width={428} height={428} className="w-100 rounded-4xl border border-focus cursor-pointer hover:shadow-focus hover:shadow-md "/>
 
             <section id="introduction" className="">
                 <p className="hidden md:inline md:text-xl lg:text-2xl">Hi there 👋🏻, i'm</p>
