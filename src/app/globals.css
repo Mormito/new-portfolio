@@ -60,7 +60,8 @@ body{
          shadow-md shadow-background2
          dark:shadow-darkbackground2
          transition-all duration-150 ease-in-out
-         hover:-translate-y-1 hover:shadow-lg;
+         hover:-translate-y-1 hover:shadow-lg
+         cursor-default;
 }
 
 

@@ -10,10 +10,9 @@ export default function Home(){
     <Header/>
 
     <main className="w-full flex-1 flex flex-col gap-30">
-    {/* <PersonalStuff />
+    <PersonalStuff />
     <Projects /> 
-    <TechStacks /> */}
-     
+    {/*<TechStacks />*/}
     </main>
 
     <Footer />
