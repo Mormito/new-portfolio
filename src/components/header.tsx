@@ -4,7 +4,7 @@ import { RiGitRepositoryFill } from "react-icons/ri";
 
 export default function Header(){
     return (
-        <div className="w-full flex flex-row justify-between items-center px-5 py-3 rounded-2xl bg-background2 dark:bg-darkbackground2">
+        <nav className="w-8/12 fixed top-4 left-1/2 -translate-x-1/2 flex flex-row justify-between items-center px-5 py-3 rounded-2xl bg-background2 dark:bg-darkbackground2">
 
             <Image src={'/images/logo.png'} alt="Logo" width={192} height={192} className="w-7"/>
 
@@ -21,6 +21,6 @@ export default function Header(){
                 <a className="headerInfo" href="https://www.github.com/Mormito?tab=repositories" target="_blank" rel="noopener noreferrer"><RiGitRepositoryFill/></a>
             </div>
 
-        </div>
+        </nav>
     );
 }
