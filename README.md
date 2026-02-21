@@ -37,3 +37,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ## Stacks
 Next.js, TailwindCSS, Typescript, icons from React Icons
+
+## Photo
+The symbol used in my portfolio is from Ordem Paranormal RPG. All credits to the original creators. If there are any issues, I will remove it immediately.
